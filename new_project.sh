@@ -6,7 +6,7 @@ fi;
 mkdir -p $PROJECT_NAME
 
 INDEX_FILE="$PROJECT_NAME/index.html"
-JS_FILE="$PROJECT_NAME/app.js"
+JS_FILE="$PROJECT_NAME/calling.js"
 
 cat << EOM > $INDEX_FILE
 <!DOCTYPE html>
@@ -14,7 +14,7 @@ cat << EOM > $INDEX_FILE
 <body>
 <h1>Hello, world</h1>
 </body>
-<script src="app.js"></script>
+<script src="calling.js"></script>
 </html> 
 EOM
 
